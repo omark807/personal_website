@@ -1,11 +1,60 @@
-.square {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 10px;
-    row-gap: 1em;
-    background-color: sienna;
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 body {
     background-color: lightblue;
+}
+
+.circile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+    background-color: sienna;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 10px;
+    background-color: rgb(77, 182, 121);
+}
+
+.grid-container {
+    height: 200px;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cell-1 {
+    background-color: red;
+}
+
+.cell-2 {
+    background-color: orange;
+}
+
+.cell-3 {
+    background-color: greenyellow;
+}
+
+.cell-4 {
+    background-color: green;
+}
+
+.cell-5 {
+    background-color: darkblue;
+}
+
+.cell-6 {
+    background-color: purple;
 }
