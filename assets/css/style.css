@@ -4,8 +4,23 @@ h2 {
     font-family: Oxygen;
 }
 
-p {
+a:hover {
+    color: black;
+    text-decoration: wavy;
+}
+
+.header {
+    text-align: center;
+    border-style: dashed;
     font-family: Oxygen;
+    font-size: 28px;
+}
+
+.intro {
+    color: darkblue;
+    text-align: center;
+    font-family: Oxygen;
+    font-size: 24px;
 }
 
 .center {
@@ -15,11 +30,16 @@ p {
     width: 18%;
 }
 
+ul {
+    font-family: Oxygen;
+    font-size: 24px;
+}
 
-/** #afffff, #74dbef, #5e88fc, #264e86**/
+
+/* #afffff, #74dbef, #5e88fc, #264e86 */
 
 body {
-    background-color: lightblue;
+    background-color: silver;
 }
 
 img {
@@ -47,24 +67,36 @@ img {
     height: 200px;
     margin: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .cell-1 {
-    background-color: red;
+    background-color: #afffff;
+    text-align: center;
+    font-family: Oxygen;
+    font-size: 24px;
 }
 
 .cell-2 {
-    background-color: orange;
+    background-color: #74dbef;
+    text-align: center;
+    font-family: Oxygen;
+    font-size: 24px;
 }
 
 .cell-3 {
-    background-color: greenyellow;
+    background-color: #5e88fc;
+    text-align: center;
+    font-family: Oxygen;
+    font-size: 24px;
 }
 
 .cell-4 {
-    background-color: green;
+    background-color: #264e86;
+    text-align: center;
+    font-family: Oxygen;
+    font-size: 24px;
 }
 
 .cell-5 {
