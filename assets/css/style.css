@@ -1,12 +1,15 @@
-h1,
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+h1 {
+    text-align: center;
+    font-family: Oxygen;
+    color: silver;
+}
+
 h2 {
     text-align: center;
     font-family: Oxygen;
-}
-
-a:hover {
-    color: black;
-    text-decoration: wavy;
+    color: grey
 }
 
 .header {
@@ -14,13 +17,32 @@ a:hover {
     border-style: dashed;
     font-family: Oxygen;
     font-size: 28px;
+    color: skyblue
 }
 
 .intro {
-    color: darkblue;
+    color: turquoise;
     text-align: center;
     font-family: Oxygen;
     font-size: 24px;
+}
+
+.about_me {
+    color: turquoise;
+    text-align: center;
+    font-family: Oxygen;
+    font-size: 24px;
+}
+
+a:hover {
+    color: black;
+    text-decoration: wavy;
+}
+
+ul {
+    font-family: Oxygen;
+    font-size: 24px;
+    color: silver;
 }
 
 .center {
@@ -30,23 +52,19 @@ a:hover {
     width: 18%;
 }
 
-ul {
-    font-family: Oxygen;
-    font-size: 24px;
-}
-
 
 /* #afffff, #74dbef, #5e88fc, #264e86 */
 
 body {
-    background-color: silver;
+    background-color: #2A3137;
 }
 
 img {
     align-items: center;
 }
 
-.circile {
+
+/* .circile {
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -61,6 +79,22 @@ img {
     float: left;
     margin: 10px;
     background-color: rgb(77, 182, 121);
+} */
+
+.mh_resources #mh_info {
+    text-align: center;
+    font-size: 24px;
+    color: #264e86;
+}
+
+.mh_resources #mh_links {
+    text-align: center;
+}
+
+.food #cooking_info {
+    text-align: center;
+    font-size: 24px;
+    color: #264e86;
 }
 
 .grid-container {
@@ -105,4 +139,23 @@ img {
 
 .cell-6 {
     background-color: purple;
+}
+
+*/ body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #444;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+}
+
+.container {
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
